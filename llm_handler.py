@@ -1,4 +1,5 @@
 import asyncio
+import streamlit as st
 import os
 from typing import List, Dict, Any
 from dotenv import load_dotenv
@@ -11,8 +12,8 @@ load_dotenv()
 class LLMHandler:
     def __init__(self):
         # Configure both OpenAI and Gemini clients
-        self.openai_api_key = os.getenv('OPENAI_API_KEY')
-        self.gemini_api_key = os.getenv('GEMINI_API_KEY')
+        self.openai_api_key = st.secrets["OPENAI_API_KEY"]
+        self.gemini_api_key = st.secrets["GEMINI_API_KEY"]
 
         if not self.openai_api_key:
             raise ValueError("OPENAI_API_KEY not found in .env file.")
