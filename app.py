@@ -23,7 +23,7 @@ st.markdown("""
         margin-bottom: 2rem;
     }
     .model-card {
-        background-color: #f8f9fa;
+        background-color: #black;
         color: #333;
         border-radius: 10px;
         padding: 1rem;
@@ -31,7 +31,7 @@ st.markdown("""
         border-left: 4px solid #1f77b4;
     }
     .answer-section {
-        background-color: black;
+        background-color: white;
         color: #333;
         border-radius: 8px;
         padding: 1rem;
