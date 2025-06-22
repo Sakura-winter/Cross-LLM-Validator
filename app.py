@@ -24,7 +24,7 @@ st.markdown("""
     }
     .model-card {
         background-color: #f8f9fa;
-        color: #333;
+        color: #222;
         border-radius: 10px;
         padding: 1rem;
         margin: 0.5rem 0;
