@@ -23,7 +23,7 @@ st.markdown("""
         margin-bottom: 2rem;
     }
     .model-card {
-        background-color: #black;
+        background-color: #f8f9fa;
         color: #333;
         border-radius: 10px;
         padding: 1rem;
